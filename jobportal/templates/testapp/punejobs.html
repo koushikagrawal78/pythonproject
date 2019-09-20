@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+{%include 'testapp/base.html'%}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="{% static "css/project.css"%}">
+
+    <title>Jobs In pune</title>
+  </head>
+  <body>
+    <h1></h1>
+    <img src="{%static "images/img1.jpg"%}" alt="">
+      <img src="{%static "images/img2.jpg"%}" alt="">
+      <img src="{%static "images/img3.jpg"%}" alt="">
+      <img src="{%static "images/img12.jpg"%}" alt="">
+      <img src="{%static "images/img12.jpg"%}" alt="">
+    {% if job_list %}
+    <div class="container">
+        <table id='tab'>
+          <thead>
+            <th>Date</th>
+            <th>Company</th>
+            <th>Title</th>
+            <th>Eligibility</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+          </thead>
+          {%for job in job_list %}
+          <tr>
+            <td>{{job.date}}</td>
+            <td>{{job.company}}</td>
+            <td>{{job.title}}</td>
+            <td>{{job.eligibility}}</td>
+            <td>{{job.address}}</td>
+            <td>{{job.email}}</td>
+            <td>{{job.phonenumber}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        {%include 'testapp/pagination.html' with page=job_list%}
+        {%else %}
+        <p>No Jobs Found in Banglore</p>
+      {% endif %}
+</div>
+  </body>
+</html>

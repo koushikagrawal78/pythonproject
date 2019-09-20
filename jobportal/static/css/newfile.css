@@ -1,0 +1,19 @@
+body{
+  background: url(http://jobhub.af/wp-content/uploads/2018/05/Recruitment-02.jpg);
+
+
+}
+.container .jumbotron{
+  margin-top: auto;
+  background-color: inherit;
+  color:black;
+}
+.container .jumbotron a{
+  background:#28e8ff;
+  color:black;
+  border:2px solid black;
+}
+h2{
+  text-align: center;
+  color: #28e8ff
+}

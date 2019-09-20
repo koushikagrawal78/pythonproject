@@ -1,0 +1,125 @@
+.container .jumbotron{
+  background: green;
+  color: inherit;
+  margin-bottom: 10%;
+}
+body{
+  background: url(https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fill,fl_progressive,h_533,q_auto,w_800/v1479371025/article/R10963_image1);
+}
+.container{
+  margin-top: 650px;
+}
+.fixed-header{
+  height: 80px;
+  width: 50px
+}
+.jumbotron a{
+  background: blue;
+  color:red;
+  border:2px solid blue;
+}
+img{
+  height:200px;
+  width:15%;
+  float:left;
+  margin:2%;
+  border:2px solid black;
+}
+.imagesb
+{
+  border:3px solid red;
+}
+h1{
+  text-align: center;
+  margin-top:6%;
+  color: #28e8ff;
+}
+table,thead,th,tr,td{
+    color: #1b284f;
+    border:2px solid blue;
+    font-size: 20px;
+    margin:1%;
+    margin-left: auto;
+    margin-right: auto;
+    background:#a668ad;
+}
+thead,th{
+    color:blue;
+    border:2px solid blue;
+    font-size: 20px;
+    margin:auto;
+    background:#1b284f;
+}
+
+.navbar-header{
+  color:#1b0638;
+}
+
+.body{
+        padding-top: 10%;
+        padding-bottom: auto;
+    }
+    .fixed-header, .footer{
+        width: 100%;
+        background: black;
+        padding: 10px 0;
+        color: #fff;
+        opacity: 10%;
+    }
+    .fixed-header{
+        top: 0;
+        position: fixed;
+    }
+    .footer{
+        bottom: 0;
+        position: fixed;
+        padding-bottom: 0;
+    }
+    .container{
+        width: 100%;
+        margin: auto; /* Center the DIV horizontally */
+    }
+    .nav a{
+        color: blue;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+   .paginator{
+     bottom: auto;
+     text-align: left;
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+     padding-bottom: 5%
+   }
+
+
+    .brand-name {
+font-family: 'Josefin Slab', serif;
+font-size: 47px;
+font-weight: bold;
+color: #444;
+text-decoration: none;
+}
+
+.nav-container {
+padding-top: 8px;
+}
+
+.navbar-custom {
+font-size: 20px;
+background-color: #28e8ff;
+
+}
+
+.logo-image{
+   width: 46px;
+   height: 46px;
+   border-radius: 100%
+   overflow: hidden;
+   margin-top: -6px;
+}
+h4{
+  text-align: center;
+}

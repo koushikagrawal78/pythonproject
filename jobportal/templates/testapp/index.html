@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%extends 'testapp/base.html'%}
+{%load staticfiles%}
+  {%block body_block%}
+<title>Home Page</title>
+   <div class="main">
+    <div class="container" align="center">
+      <div class="jumbotron">
+        <h1>Welcome to Skill-Mine Job Portal</h1>
+        <br>
+        <h2>Continuous job updates for every Seconds</h2>
+        <br>
+        <br>
+        <a class="btn btn-primary btn-lg" href="/hydjobs" role="button">Hyderabad Jobs</a> &nbsp&nbsp&nbsp
+        <a class="btn btn-primary btn-lg" href="/bengjobs" role="button">Bangalore Jobs</a> &nbsp&nbsp&nbsp
+        <a class="btn btn-primary btn-lg" href="/chenjobs" role="button">Chennai Jobs</a> &nbsp&nbsp&nbsp
+        <a class="btn btn-primary btn-lg" href="/punejobs" role="button">Pune Jobs</a> &nbsp&nbsp&nbsp
+        <a class="btn btn-primary btn-lg" href="/mumjobs" role="button">mumbai jobs</a> &nbsp&nbsp&nbsp
+
+<div>
+    <img src="{%static "images/img16.jpg"%}" alt="">
+    <img src="{%static "images/img17.jpg"%}" alt="">
+    <img src="{%static "images/img18.jpg"%}" alt="">
+    <img src="{%static "images/img19.jpg"%}" alt="">
+    <img src="{%static "images/img20.jpg"%}" alt="">
+    </div>
+    </div>
+    </div>
+  </div>
+  {%endblock%}
